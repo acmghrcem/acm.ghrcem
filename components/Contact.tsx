@@ -2,11 +2,7 @@
 import React from 'react';
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
+
 
 const ContactPage = () => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
