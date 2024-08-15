@@ -125,7 +125,9 @@ function Navbar({ className }: { className?: string }) {
       >
         <HoverCard.Root openDelay={100} closeDelay={100}>
           <HoverCard.Trigger asChild>
+            <Link href="/Auth/Login">
             <span>Join Us</span>
+            </Link>
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className="bg-black text-white  mt-[22px] w-[120px] z-50 border-[1px] border-[#53a8d8] rounded-lg cursor-pointer p-3">
